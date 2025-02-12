@@ -1,0 +1,146 @@
+
+.main-image{
+
+   width: 100vw;
+   height: 100hv;
+    background-image:url("main-image.jpg");
+    
+
+}
+
+/**
+.movmed-image{
+   
+    width: 100vw;
+    height: 100hv;
+    background-image: url("movmed.jpg");
+
+
+ width: 100vw;
+    height:100hv;
+
+
+ } **/
+
+
+ .mov-sec-tex-col {
+     
+   
+ }
+
+.moving-section{
+    
+    
+   
+    
+    background-image: url("calm.jpg");
+   background-size:cover;
+}
+
+ .p-header{
+
+    font-size: larger;
+ }
+
+ol {
+    color: rgb(0, 0, 0);
+    
+    list-style-position: inside;
+    text-align: center;
+
+}
+ 
+ 
+body {
+
+    text-align: center;
+  
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+
+
+}
+
+.page-header{
+
+    background-color: antiquewhite;
+
+}
+
+.navigation{
+   
+    font-size: x-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+
+
+
+
+
+#Technique-categories{
+
+
+    background-image: url("main-image.jpg");
+    font-size: x-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.text-uppercase{
+
+    text-transform: uppercase;
+    text-size-adjust: 12px;
+    background-color:beige ;
+
+
+}
+
+
+
+.facebook{
+    margin: 12px;
+    width: 50px;
+    height: 50px;
+}
+
+.instagram{ 
+
+    margin: 12px;
+    width: 50px;
+    height: 50px;
+}
+
+.twitter{  
+
+    margin: 12px;
+    width: 50px;
+    height: 50px;
+}
+
+.youtube{
+    margin: 12px;
+    width: 50px;
+    height: 50px;
+}
+
+#contact{
+
+    font-size: large;
+
+}
