@@ -1,11 +1,8 @@
-
-.main-image{
-
-   width: 100vw;
-   height: 100hv;
-    background-image:url("main-image.jpg");
-    
-
+.main-image {
+  object-fit: contain;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("main-image.jpg");
 }
 
 /**
@@ -22,125 +19,162 @@
 
  } **/
 
-
- .mov-sec-tex-col {
-     
-   
- }
-
-.moving-section{
-    
-    
-   
-    
-    background-image: url("calm.jpg");
-   background-size:cover;
+.mov-sec-tex-col {
+  color: aliceblue;
 }
 
- .p-header{
+.moving-list {
+  color: aliceblue;
+}
 
-    font-size: larger;
- }
+.moving-section {
+  background-image: url("move.jpg");
+  background-size: cover;
+}
+
+.p-head {
+  font-size: larger;
+}
+header h1,
+h2 {
+  margin: 1rem;
+  height: 20%;
+
+  padding-bottom: 4%;
+}
 
 ol {
-    color: rgb(0, 0, 0);
-    
-    list-style-position: inside;
-    text-align: center;
+  color: rgb(0, 0, 0);
 
+  list-style-position: inside;
+  text-align: center;
 }
- 
- 
+
 body {
+  text-align: center;
 
-    text-align: center;
-  
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    
-
-
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.page-header{
-
-    background-color: antiquewhite;
-
+.page-header {
+  background-color: antiquewhite;
+  height: 30vh;
 }
 
-.navigation{
-   
-    font-size: x-large;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
+nav a {
+  margin: 3px;
+  padding: 3px;
+  text-decoration: none;
+  color: inherit;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
 }
 
-
-
-
-
-
-
-
-#Technique-categories{
-
-
-    background-image: url("main-image.jpg");
-    font-size: x-large;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
-
-
+#Technique-categories {
+  background-image: url("main-image.jpg");
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-
-
-
-
-
-
-
-
-
-.text-uppercase{
-
-    text-transform: uppercase;
-    text-size-adjust: 12px;
-    background-color:beige ;
-
-
+.text-uppercase {
+  text-transform: uppercase;
+  font: 12px;
+  background-color: beige;
 }
 
-
-
-.facebook{
-    margin: 12px;
-    width: 50px;
-    height: 50px;
+/*
+.facebook {
+  margin: 12px;
+  width: 50px;
+  height: 50px;
 }
 
-.instagram{ 
-
-    margin: 12px;
-    width: 50px;
-    height: 50px;
+.instagram {
+  margin: 12px;
+  width: 50px;
+  height: 50px;
 }
 
-.twitter{  
-
-    margin: 12px;
-    width: 50px;
-    height: 50px;
+.twitter {
+  margin: 12px;
+  width: 50px;
+  height: 50px;
 }
 
-.youtube{
-    margin: 12px;
-    width: 50px;
-    height: 50px;
+.youtube {
+  margin: 12px;
+  width: 50px;
+  height: 50px;
+} */
+
+#contact span {
+  font-size: larger;
+  font-weight: bold;
+}
+a:hover {
+  background-color: lightgreen;
+  font-size: larger;
+  transition: 0.3s;
 }
 
-#contact{
+footer a {
+  margin: 5px 5%;
+  font-size: 222%;
+  text-align: center;
+}
 
-    font-size: large;
+summary:hover {
+  background-color: lightgreen;
+  font-size: larger;
+  transition: 0.3s;
+  cursor: pointer;
+}
 
+.text-left {
+  text-align: left;
+}
+
+footer div {
+  width: 25vw;
+  margin: 3px;
+  font-size: large;
+  font-weight: bold;
+  text-align: left;
+  position: relative;
+}
+
+.for-more-sign-up {
+  padding: 10px;
+
+  height: 15vh;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: lightgreen;
+}
+
+.for-more-sign-up a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bolder;
+}
+.sign-up:hover {
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: larger;
+  color: white;
+  transition: 0.3s;
+}
+
+/**.sign-up-img {
+  object-fit: fill;
+  width: 100vw;
+  height: 100hv;
+  background-image: url("mindfulnes.jpg");
+} **/
+
+#sign-up-section {
+  height: 50vh;
+  background-image: url("mindfulnes.jpg");
 }
